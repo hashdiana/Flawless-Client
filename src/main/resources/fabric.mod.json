@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "flawless",
+  "version": "1.0",
+  "name": "FlawLess",
+  "icon": "assets/minecraft/icon.png",
+  "description": "1.20.4 Hacked Client",
+  "authors": [
+    "KizuatoResu"
+  ],
+  "accessWidener": "flaw.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.flawless.FlawLess"
+    ]
+  },
+  "mixins": [
+    "flaw.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.4",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
